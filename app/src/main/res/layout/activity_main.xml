@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.winuser.discapphelp.menu">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:ems="10"
+        android:id="@+id/editTextNuevoName"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion"
+        android:id="@+id/textViewNuevoAddress"
+        android:layout_below="@+id/editTextNuevoName"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editTextNuevoName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNuevoAddress"
+        android:layout_below="@+id/textViewNuevoAddress"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ciudad"
+        android:id="@+id/textViewNuevoCity"
+        android:layout_below="@+id/editTextNuevoAddress"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNuevoCity"
+        android:layout_below="@+id/textViewNuevoCity"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="estado"
+        android:id="@+id/textViewNuevoState"
+        android:layout_below="@+id/editTextNuevoCity"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNuevoState"
+        android:layout_below="@+id/textViewNuevoState"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zip"
+        android:id="@+id/textViewNuevoZip"
+        android:layout_below="@+id/editTextNuevoState"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNuevoZip"
+        android:layout_below="@+id/textViewNuevoZip"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insertar punto"
+        android:id="@+id/buttonAddPunto"
+        android:layout_alignTop="@+id/editTextNuevoZip"
+        android:layout_toEndOf="@+id/editTextNuevoZip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Datos GPS"
+        android:id="@+id/textViewGPS"
+        android:layout_below="@+id/txtLongitud"
+        />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLatitud"
+            android:id="@+id/txtLongitud" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mensaje_id"
+        android:id="@+id/txtLatitud" />
+
+
+    <TextView
+        android:id="@+id/mensaje_id"
+        android:layout_below="@+id/buttonAddPunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+
+</RelativeLayout>

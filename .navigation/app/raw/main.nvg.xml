@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.inicio"/>
+      <point      
+        x = "-148"      
+        y = "8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.menu"/>
+      <point      
+        x = "1876"      
+        y = "68"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.ayuda"/>
+      <point      
+        x = "2540"      
+        y = "3460"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.Main2Activity"/>
+      <point      
+        x = "620"      
+        y = "1556"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.datospersonales"/>
+      <point      
+        x = "3012"      
+        y = "1564"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.registrar"/>
+      <point      
+        x = "32"      
+        y = "1572"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.videso1"/>
+      <point      
+        x = "1768"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.video3"/>
+      <point      
+        x = "128"      
+        y = "3356"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.video2"/>
+      <point      
+        x = "1552"      
+        y = "3340"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.emergencia"/>
+      <point      
+        x = "3056"      
+        y = "76"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.acercade"/>
+      <point      
+        x = "944"      
+        y = "1532"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.MainActivity"/>
+      <point      
+        x = "-24"      
+        y = "3332"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.ingresar"/>
+      <point      
+        x = "744"      
+        y = "44"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.winuser.discapphelp.datosespeciales"/>
+      <point      
+        x = "1948"      
+        y = "1592"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.winuser.discapphelp.datospersonales"
+    android:background="#c2cefa"
+    android:touchscreenBlocksFocus="false"
+    android:nestedScrollingEnabled="false"
+    android:longClickable="false">
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Datos Personales"
+        android:id="@+id/textView20"
+        android:textColor="#000000"
+        android:autoText="true"
+        android:textStyle="normal|bold"
+        android:textSize="50px"
+        android:layout_column="8"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="245dp"
+        android:id="@+id/scrollView2"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:measureAllChildren="false"
+        android:nestedScrollingEnabled="false"
+        android:touchscreenBlocksFocus="false"
+        android:transitionGroup="false"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:scrollIndicators="bottom|right"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cedula"
+                android:id="@+id/textView21"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextCedula"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:textSize="50px"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView22"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula"
+                android:text="Nombre" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextNombre"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:textSize="50px" />
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Apellido"
+                android:id="@+id/textView23"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextApellido"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:layout_gravity="center_horizontal"
+                android:textSize="50px"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Edad"
+                android:id="@+id/textView25"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextEdad"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:layout_gravity="center_horizontal"
+                android:textSize="50px"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sexo"
+                android:id="@+id/textView26"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextSexo"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:layout_gravity="center_horizontal"
+                android:textSize="50px"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Direccion"
+                android:id="@+id/textView27"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextDireccion"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:layout_gravity="center_horizontal"
+                android:textSize="50px"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Telefono"
+                android:id="@+id/textView28"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextTelefono"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:layout_gravity="center_horizontal"
+                android:textSize="50px"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Celular"
+                android:id="@+id/textView29"
+                android:textSize="50px"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/editTextCedula"
+                android:layout_alignStart="@+id/editTextCedula" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextCelular"
+                android:textColor="#000000"
+                android:transitionName="Ingrese el nombre"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView21"
+                android:layout_gravity="center_horizontal"
+                android:textSize="50px"
+                android:inputType="number" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/imageButtonGuardar"
+                android:background="@drawable/save"
+                android:layout_gravity="left|bottom"
+                android:layout_alignTop="@+id/imageButton14"
+                android:layout_toLeftOf="@+id/imageButton14"
+                android:layout_toStartOf="@+id/imageButton14"
+                android:layout_marginRight="40dp"
+                android:layout_marginEnd="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/scrollView2"
+        android:layout_alignEnd="@+id/scrollView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false">
+
+    </FrameLayout>
+
+</RelativeLayout>

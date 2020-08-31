@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.winuser.discapphelp.registrar"
+    android:background="#c2cefa">
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/btonRegistrar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/next"
+        android:focusable="true"
+        android:elevation="@dimen/design_navigation_padding_bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Registrarse"
+        android:id="@+id/textView13"
+        android:textColor="#000000"
+        android:autoText="true"
+        android:textStyle="normal|bold"
+        android:textSize="50px"
+        android:layout_column="8"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btonRegistrar"
+        android:layout_alignEnd="@+id/btonRegistrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/editTextCorreo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        tools:ignore="NotSibling">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Usuario:"
+            android:id="@+id/textView14"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_below="@+id/textView13"
+            android:layout_alignLeft="@+id/editTextLoginUsuario"
+            android:layout_alignStart="@+id/editTextLoginUsuario" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextLoginUsuario"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contraseña:"
+            android:id="@+id/textView15"
+            android:textSize="25dp"
+            android:layout_alignLeft="@+id/editTextContraseña"
+            android:layout_alignStart="@+id/editTextContraseña"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_below="@+id/textView14"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextContraseña"
+            android:textColor="#000000"
+            android:transitionName="Ingrese el nombre"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Correo:"
+            android:id="@+id/textView16"
+            android:textSize="25dp"
+            android:layout_below="@+id/editTextContraseña"
+            android:layout_alignLeft="@+id/editTextContraseña"
+            android:layout_alignStart="@+id/editTextContraseña"
+            android:textColor="#000000"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/editTextCorreo"
+            android:layout_below="@+id/textView16"
+            android:layout_alignLeft="@+id/textView16"
+            android:layout_alignStart="@+id/textView16"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

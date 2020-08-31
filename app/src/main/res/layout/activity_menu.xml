@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.winuser.discapphelp.datosespeciales"
+    android:touchscreenBlocksFocus="false"
+    android:transitionGroup="false"
+    android:background="#c2cefa">
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Menu"
+        android:id="@+id/textView17"
+        android:textColor="#000000"
+        android:autoText="true"
+        android:textStyle="normal|bold"
+        android:textSize="50px"
+        android:layout_column="8"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButtonMenuEmergencia"
+        android:background="@drawable/sos"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2"
+        android:layout_column="9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="49dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/inff"
+        android:layout_alignTop="@+id/imageButtonMenuEmergencia"
+        android:layout_toRightOf="@+id/imageButtonMenuEmergencia"
+        android:layout_toEndOf="@+id/imageButtonMenuEmergencia"
+        android:layout_marginLeft="15dp" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton4"
+        android:background="@drawable/acerca"
+        android:layout_alignTop="@+id/imageButton7"
+        android:layout_alignLeft="@+id/imageButtonMenuEmergencia"
+        android:layout_alignStart="@+id/imageButtonMenuEmergencia" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton5"
+        android:background="@drawable/help"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageButton7"
+        android:layout_toEndOf="@+id/imageButton7" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton6"
+        android:background="@drawable/inff"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:layout_toEndOf="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton7"
+        android:background="@drawable/inff"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+</RelativeLayout>
